@@ -236,7 +236,6 @@ img {
 }
 
 .icon-links {
-	text-align: center;
 	transition: 0.2s ease all;
 }
 
@@ -330,42 +329,25 @@ button:hover {
 
 footer {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	border-top: 4px solid rgba(0, 180, 180, 1);
-	padding: 3em;
+	padding: 50px;
 	background-color: #232931;
 	color: #eeeeee;
 	font-size: 1.2rem;
 	text-align: center;
-
 }
 
 footer a:link,
 footer a:visited,
 footer a:active {
 	color: #eeeeee;
-	padding: 0.5rem;
-	font-size: 1.8rem;
-
 }
 
 footer a:hover {
 	color: rgba(0, 180, 180, 1);
 }
-
-.my-links {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-footer p {
- padding-top: 0.5rem;
- padding-bottom: 0.5rem;
-}
-
-
 
 /* Responsiveness */
 
